@@ -11,6 +11,7 @@
 <body>
     <main>
         <section id="image-section">
+            <?php include'navigationMenu.php'; ?>
         </section>
     </main>
 </body>
