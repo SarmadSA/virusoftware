@@ -1,14 +1,13 @@
-
-#logo-container{
+.logo-container{
     display: inline;
 }
 
-#logo-text{
+.logo-text{
     display: inline;
     font-size: 200%;
 }
 
-#logo-text{
+.logo-text{
     transition: 0.4s ease;
     color: rgba(191,191,191,1.00);
 }
@@ -22,13 +21,14 @@
     transition: 0.4s ease;
     fill: white;
 }
+
 .cls-2{
     transition: 0.4s ease;
     fill: white;
 }
 
 /*when hovering over the logo-container, we are effecting the logo text and the 2 parts of svg logo*/
-#logo-container:hover #logo-text, #logo-container:hover .svg-logo .cls-1, #logo-container:hover .svg-logo .cls-2{
+.logo-container:hover .logo-text, .logo-container:hover .svg-logo .cls-1, .logo-container:hover .svg-logo .cls-2{
     color: white;
     fill: #00FF00;
 }
