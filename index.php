@@ -16,6 +16,9 @@
             <?php include'templates/navigationMenu.php'; ?>
             <script src="script/header.js" type="text/javascript"></script>
         </section>
+        <section id="main-section">
+        
+        </section>
         <?php include'templates/footer.php';?>
     </main>
 </body>
