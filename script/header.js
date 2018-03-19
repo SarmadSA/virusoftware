@@ -24,3 +24,18 @@ $(window).scroll(function() {
         $(".svg-logo .cls-2").css("fill", "white");
     }
 });
+
+/*        
+    var hovered = $('#logo-container').is(":hover");
+    if(hovered){
+        $(".svg-logo .cls-1").css("fill", "#00FF00");
+        $(".svg-logo .cls-2").css("fill", "#00FF00");
+    }
+    else{
+        $(".svg-logo .cls-1").css("fill", "white");
+        $(".svg-logo .cls-2").css("fill", "white");
+    }
+        document.getElementById("logo-container").onmouseover = function() {
+        document.getElementById("svg-logo .cls-1").style.fill = "white";
+    };
+        */
