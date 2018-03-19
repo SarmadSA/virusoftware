@@ -6,6 +6,9 @@
 </head>
 
 <body>
-
+    <main>
+        <section id="image-section">
+        </section>
+    </main>
 </body>
 </html>
