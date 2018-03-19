@@ -12,7 +12,7 @@
 <body>
     <main>
         <section id="image-section">
-            <?php include'navigationMenu.php'; ?>
+            <?php include'templates/navigationMenu.php'; ?>
             <script src="script/header.js" type="text/javascript"></script>
         </section>
     </main>
