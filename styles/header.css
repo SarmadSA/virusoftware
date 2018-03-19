@@ -1,0 +1,74 @@
+.nav-menu{
+    position: fixed;
+    padding: 15px 100px;
+    height: auto;
+    width: 100%;
+}
+
+#navigation-ul {
+    transition: 0.4s ease;
+    display: inline;
+    float: right;
+    font-size: 130%;
+    margin-top: 15px;
+}
+
+#logo-container{
+    display: inline;
+}
+
+#logo-text{
+    display: inline;
+    font-size: 200%;
+}
+
+#logo-text{
+    transition: 0.4s ease;
+    color: rgba(191,191,191,1.00);
+}
+
+.list-element {
+    display: inline;
+    padding: 0 15px;
+}
+
+.list-element a{
+    transition: 0.4s ease;
+    color: white;
+}
+
+.list-element a:hover{
+    color: #00FF00;
+}
+
+/*SVG logo*/
+.svg-logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.cls-1{
+    transition: 0.4s ease;
+    fill: white;
+}
+.cls-2{
+    transition: 0.4s ease;
+    fill: white;
+}
+
+/*when hovering over the logo-container, we are effecting the logo text and the 2 parts of svg logo*/
+#logo-container:hover #logo-text, #logo-container:hover .svg-logo .cls-1, #logo-container:hover .svg-logo .cls-2{
+    color: white;
+    fill: #00FF00;
+}
+
+/*
+.svg-logo:hover .cls-1{
+    /*fill:url(#linear-gradient);
+    fill: #00FF00;
+}
+
+.svg-logo:hover .cls-2{
+    /*fill:url(#linear-gradient-2);
+    fill: #00FF00;
+}*/
