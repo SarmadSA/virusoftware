@@ -22,7 +22,7 @@ a{
 }
 
 #image-section{
-    height: 1350px;
+    height: 1300px;
     background-image: url(" ../images/software-development.jpg");
     background-repeat: no-repeat;
     /*background-size: cover;*/
