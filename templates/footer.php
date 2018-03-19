@@ -2,11 +2,20 @@
 @import url("../styles/footer.css");
 </style>
 <footer id="footer">
-    <div class="logo-container">
-        <!--SVG logo-->
-        <?php include'virusoftware-logo.svg'; ?>
-        <!--Logo text-->
-        <h1 class="logo-text">Virusoftware</h1>
+    <a href="../index.php">
+        <div class="logo-container">
+            <!--SVG logo-->
+            <?php include'virusoftware-logo.svg'; ?>
+            <!--Logo text-->
+            <h1 class="logo-text">Virusoftware</h1>
+        </div>
+    </a>
+    <div class="social-media-container">
+        <a href="#"><?php include'github2.svg'; ?></a>
+       <a href="#"><?php include'facebook.svg'; ?></a>
+        <a href="#"><?php include'twitter.svg'; ?></a>
+        <a href=""><?php include'youtube.svg'; ?></a>
+        <a href=""><?php include'google-plus2.svg'; ?></a>
     </div>
     <nav id="footer-nav">
         <ul id="footer-ul">
