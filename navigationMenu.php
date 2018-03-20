@@ -2,6 +2,8 @@
     <!--Logo container-->
     <a href="index.php">
         <div id="logo-container">
+            <!--SVG logo-->
+            <?php include'virusoftware-logo.php'; ?>
             <!--Logo text-->
             <h1 id="logo-text">Virusoftware</h1>
         </div>
