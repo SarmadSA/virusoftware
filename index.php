@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<link rel="shortcut icon" href="images/virusoftware-favicon3.png">
 <meta charset="utf-8">
 <title>Virusoftware</title>
 <link rel="stylesheet" href="styles/main.css">
@@ -22,12 +23,12 @@
                 <p id="info-text">Virusoftware is currently in pre alpha.<p>
                 <br>              
                 <br>
-                <p>Get the latest news about virusoftware:</p>
+                <p>Get the latest news about Virusoftware:</p>
                 <?php include'include/homepageForm.php';?>
             </div>
         </section>
         <section id="service-section">
-            <h1>Services offered by virusoftware</h1>
+            <h1>Services offered by Virusoftware</h1>
             <section class="service-section service-left">
             
             </section>
