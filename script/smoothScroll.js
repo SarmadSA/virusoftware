@@ -1,0 +1,5 @@
+$('.services').click(function(){
+    "use strict";
+    var positionToScroll = $('#service-section').offset().top - $('#nav-menu').height() - 30;
+    $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
+});
