@@ -38,6 +38,7 @@
             
             </section>
         </section>
+        <script src="script/smoothScroll.js"></script>
         <?php include'include/footer.php';?>
     </main>
 </body>
