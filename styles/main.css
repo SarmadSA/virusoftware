@@ -22,14 +22,14 @@ a{
 }
 
 #image-section{
-    height: 1300px;
+    height: 1000px;
     background-image: url(" ../images/software-development.jpg");
     background-repeat: no-repeat;
     /*background-size: cover;*/
 }
 
 #main-section {
-   height: 600px;
+   height: 1000px;
     width: 100%;
     background: rgba(30,30,30,1.00);
 }
