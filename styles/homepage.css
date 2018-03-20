@@ -6,9 +6,11 @@
 }
 
 #main-section {
-   height: 1000px;
+    height: 1000px;
     width: 100%;
-    background: rgba(30,30,30,1.00);
+    background: rgba(25,25,25,1.00);
+    padding: 20px;
+    color: white;
 }
 
 #announcement-container {
