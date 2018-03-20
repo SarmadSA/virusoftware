@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<link rel="shortcut icon" href="images/virusoftware-favicon3.png">
+<link rel="shortcut icon" href="images/virusoftware-favicon-white.png">
 <meta charset="utf-8">
 <title>Virusoftware</title>
 <link rel="stylesheet" href="styles/main.css">

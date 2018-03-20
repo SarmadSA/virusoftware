@@ -11,16 +11,16 @@
         <a href="#"><?php include'github2.svg'; ?></a>
         <a href="#"><?php include'facebook.svg'; ?></a>
         <a href="#"><?php include'twitter.svg'; ?></a>
-        <a href=""><?php include'google-plus.svg'; ?></a>
-        <a href=""><?php include'youtube.svg'; ?></a>
+        <a href="#"><?php include'google-plus.svg'; ?></a>
+        <a href="#"><?php include'youtube.svg'; ?></a>
     </div>
     <nav id="footer-nav">
         <ul id="footer-ul">
-            <li><a href="https://www.google.no/">Home</a></li>
-            <li><a href="https://www.google.no/">Software</a></li>
-            <li><a href="https://www.google.no/">About</a></li>
-            <li><a href="https://www.google.no/">Contact</a></li>
-            <li><a href="https://www.google.no/">Other websites</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Software</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Other websites</a></li>
         </ul>
     </nav>
     <p id="development-info"> Developed by virusoftware | <a href="http://www.virusoftware.com">www.virusoftware.com</a></p>
