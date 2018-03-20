@@ -7,6 +7,7 @@
     text-align: center;
     color: white;
     text-decoration: none;
+    /*border-top: 1px solid #00FF00;*/
 }
 
 footer a{
@@ -37,6 +38,7 @@ footer a{
     color: #00FF00;
 }
 
+/*socialmedia icons*/
 .social-media-container {
     margin-top: 10px;
 }
@@ -44,4 +46,13 @@ footer a{
 .footer-ico{
     margin-left: 3px;
     margin-right: 3px;
+}
+
+.facebook-shape, .github-shape, .google-ico, .twitter-shape, .youtube-shape{
+    transition: 0.4s ease;
+    fill: lightgray;
+}
+
+.facebook-shape:hover, .github-shape:hover, .google-ico:hover, .twitter-shape:hover, .youtube-shape:hover{
+    fill: #00FF00;
 }
