@@ -12,10 +12,10 @@
     </a>
     <div class="social-media-container">
         <a href="#"><?php include'github2.svg'; ?></a>
-       <a href="#"><?php include'facebook.svg'; ?></a>
+        <a href="#"><?php include'facebook.svg'; ?></a>
         <a href="#"><?php include'twitter.svg'; ?></a>
+        <a href=""><?php include'google-plus.svg'; ?></a>
         <a href=""><?php include'youtube.svg'; ?></a>
-        <a href=""><?php include'google-plus2.svg'; ?></a>
     </div>
     <nav id="footer-nav">
         <ul id="footer-ul">
