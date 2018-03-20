@@ -10,8 +10,8 @@
     </a>   
 	<ul id="navigation-ul">
 		<li class="list-element services"><a href="index.php#service-section">Services</a></li>
-		<li class="list-element"><a href="../software.php">Software</a></li>
-		<li class="list-element"><a href="../about.php">About</a></li> 
-		<li class="list-element"><a href="../contact.php">Contact</a></li> 
+		<li class="list-element"><a href="#">Software</a></li>
+		<li class="list-element"><a href="#">About</a></li> 
+		<li class="list-element"><a href="#">Contact</a></li> 
 	</ul>
 </nav>
