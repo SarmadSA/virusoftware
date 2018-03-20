@@ -15,7 +15,7 @@
 <body>
     <main>
         <section id="image-section">
-            <?php include'templates/navigationMenu.php'; ?>
+            <?php include'include/navigationMenu.php'; ?>
             <script src="script/header.js" type="text/javascript"></script>
             <div id="announcement-container">
                 <h1>Offering quality software solutions</h1>
@@ -23,13 +23,13 @@
                 <br>              
                 <br>
                 <p>Get the latest news about virusoftware:</p>
-                <?php include'templates/homepageForm.php';?>
+                <?php include'include/homepageForm.php';?>
             </div>
         </section>
         <section id="main-section">
             <h1>Services offered by virusoftware</h1>
         </section>
-        <?php include'templates/footer.php';?>
+        <?php include'include/footer.php';?>
     </main>
 </body>
 </html>
