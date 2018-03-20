@@ -26,8 +26,17 @@
                 <?php include'include/homepageForm.php';?>
             </div>
         </section>
-        <section id="main-section">
+        <section id="service-section">
             <h1>Services offered by virusoftware</h1>
+            <section class="service-section service-left">
+            
+            </section>
+            <section class="service-section service-center">
+            
+            </section>
+            <section class="service-section service-right">
+            
+            </section>
         </section>
         <?php include'include/footer.php';?>
     </main>

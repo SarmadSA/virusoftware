@@ -1,6 +1,3 @@
-<style type="text/css">
-@import url("../styles/footer.css");
-</style>
 <footer id="footer">
     <a href="../index.php">
         <div class="logo-container">
