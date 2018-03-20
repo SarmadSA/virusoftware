@@ -5,12 +5,17 @@
     /*background-size: cover;*/
 }
 
-#main-section {
-    height: 1000px;
+#service-section {
+    height: 900px;
     width: 100%;
     background: rgba(25,25,25,1.00);
-    padding: 20px;
+    padding: 40px 100px;
     color: white;
+    text-align: center;
+}
+
+#service-section h1{
+    font-size: 230%;
 }
 
 #announcement-container {
@@ -68,4 +73,25 @@
 .focus-style:focus {
 	outline: none;
 	box-shadow: 0 0 3pt 0.3pt #00FF00;
+}
+
+.service-section {
+    height: 700px;
+    width: 32%;
+    background-color: rgba(32,32,32,1.00);
+    margin: 40px 0;
+    border-radius: 15px;
+}
+
+.service-left{
+    float: left;
+}
+
+.service-center{
+    display: inline-block;
+    marign: 0 auto;
+}
+
+.service-right{
+    float: right;
 }
