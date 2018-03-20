@@ -14,7 +14,7 @@
 
 <body>
     <main>
-        <section id="image-section">
+        <section id="home-section">
             <?php include'include/navigationMenu.php'; ?>
             <script src="script/header.js" type="text/javascript"></script>
             <div id="announcement-container">
