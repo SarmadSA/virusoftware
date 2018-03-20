@@ -3,7 +3,7 @@
     <a href="index.php">
         <div id="logo-container">
             <!--SVG logo-->
-            <?php include'virusoftware-logo.php'; ?>
+            <?php include'virusoftware-logo.svg'; ?>
             <!--Logo text-->
             <h1 id="logo-text">Virusoftware</h1>
         </div>
