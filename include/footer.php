@@ -1,5 +1,5 @@
 <footer id="footer">
-    <a href="../index.php">
+    <a href="index.php#home-section">
         <div class="logo-container">
             <!--SVG logo-->
             <?php include'virusoftware-logo.svg'; ?>
