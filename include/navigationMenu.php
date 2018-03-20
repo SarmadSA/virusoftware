@@ -1,6 +1,6 @@
 <nav id="nav-menu" class="nav-menu">
     <!--Logo container-->
-    <a href="index.php#image-section">
+    <a href="index.php#home-section">
         <div class="logo-container">
             <!--SVG logo-->
             <?php include'virusoftware-logo.svg'; ?>
