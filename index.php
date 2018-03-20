@@ -5,6 +5,7 @@
 <title>Virusoftware</title>
 <link rel="stylesheet" href="styles/main.css">
 <link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/logo.css">
 <link rel="stylesheet" href="styles/footer.css">
 <link href="https://fonts.googleapis.com/css?family=Abel|Saira+Condensed" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
