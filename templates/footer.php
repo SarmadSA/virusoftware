@@ -2,11 +2,11 @@
 @import url("../styles/footer.css");
 </style>
 <footer id="footer">
-    <div id="logo-container">
+    <div class="logo-container">
         <!--SVG logo-->
         <?php include'virusoftware-logo.svg'; ?>
         <!--Logo text-->
-        <h1 id="logo-text">Virusoftware</h1>
+        <h1 class="logo-text">Virusoftware</h1>
     </div>
     <nav id="footer-nav">
         <ul id="footer-ul">

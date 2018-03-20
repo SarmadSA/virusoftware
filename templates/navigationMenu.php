@@ -1,11 +1,11 @@
 <nav id="nav-menu" class="nav-menu">
     <!--Logo container-->
     <a href="../index.php">
-        <div id="logo-container">
+        <div class="logo-container">
             <!--SVG logo-->
             <?php include'virusoftware-logo.svg'; ?>
             <!--Logo text-->
-            <h1 id="logo-text">Virusoftware</h1>
+            <h1 class="logo-text">Virusoftware</h1>
         </div>
     </a>   
 	<ul id="navigation-ul">
