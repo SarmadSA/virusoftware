@@ -1,9 +1,14 @@
 @charset "utf-8";
 
+.page-tittle {
+    color: white;
+    padding: 130px 100px 0 100px;
+}
+
 .contact-form{
 	width: 80%;
 	box-sizing: border-box;
-	padding: 30px 100px;
+	padding: 60px 100px;
 	background-color: transparent;
 }
 
@@ -79,9 +84,4 @@ label {
 .error-message {
 	color: red;
 	font-size: 110%;
-}
-
-.page-tittle {
-    color: white;
-    padding: 150px 100px 0 100px;
 }
