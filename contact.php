@@ -43,6 +43,7 @@
     </form>
     <br class="clear"/>
     </main>
-    <?php include'include/footer.php';?>    
+    <?php include'include/footer.php';?>
+    <script src="script/smoothScroll.js"></script>
 </body>
 </html>

@@ -9,3 +9,9 @@ $('.logo-container').click(function(){
     var positionToScroll = $('#home-section').offset().top;
     $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
 });
+
+$('.contact').click(function(){
+    "use strict";
+    var positionToScroll = $('.main').offset().top;
+    $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
+});

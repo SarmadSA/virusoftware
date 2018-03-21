@@ -39,8 +39,8 @@
                 <h2 class="service-heading">Software development</h2>
             </section>
         </section>
-        <script src="script/smoothScroll.js"></script>
     </main>
     <?php include'include/footer.php';?>
+    <script src="script/smoothScroll.js"></script>
 </body>
 </html>
