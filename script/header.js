@@ -1,50 +1,68 @@
 var opacity = 0;
 var maxOpacity = 0.5;
-var scroll = 0;
+ 
+//When uploading to server make sure that this code works
+//I don't think www.virusoftware has a path name /virusoftware/ or /virusoftware/index.php
+var targetPath_a = "/virusoftware/index.php";
+var targetPath_b = "/virusoftware/";
 
-$( document ).ready(function() {
+$(document).ready(function() {
     "use strict";
-    if(window.location.pathname === "/virusoftware/index.php" || window.location.pathname === "/virusoftware/"){
-        var backgroundColor = "rgba(0,0,0," + 0 + ")";
-        $("#nav-menu").css("background-color", backgroundColor);   
+    var backgroundColor = "rgba(0,0,0," + 1 + ")";
+    if(isAtHomePage()){
+        backgroundColor = "rgba(0,0,0," + 0 + ")"; 
     }
-    else{
-        var backgroundColor = "rgba(0,0,0," + 1 + ")";
-        $("#nav-menu").css("background-color", backgroundColor);   
-    }
-    console.log(window.location.pathname);
+    setHeaderBackgroundColor(backgroundColor);
 });
 
 $(window).scroll(function() {
     "use strict";
-    scroll = $(window).scrollTop();
+    var pixelsScrolled = $(window).scrollTop();
     var backgroundColor = "rgba(0,0,0," + opacity + ")";
-    /*its possible to use window.location.href.indexOf("index.php") > -1
-        when uploading server make sure that this code works
-        i don't think www.virusoftware
-    */
-    if (window.location.pathname === "/virusoftware/index.php" || window.location.pathname === "/virusoftware/") {
-        if(scroll/1000 <= maxOpacity){
-            opacity = scroll/1000;
-        }
-        else{
-            opacity = maxOpacity;
-        }  
+    
+    if (isAtHomePage()) {
+        setOpacity(pixelsScrolled);
+        fillLogoOnscroll(pixelsScrolled,200);
+        setHeaderBackgroundColor(backgroundColor);
     }
     else{
-        opacity = 0.7;             
-    }
-    
-    //change the opacity of header background on scroll.
-    $("#nav-menu").css("background-color", backgroundColor);
-    
-    //Fill logo when header background opacity > 0.2.
-    if(opacity > 0.2){
-        $(".svg-logo .cls-1").css("fill", "#00FF00");
-        $(".svg-logo .cls-2").css("fill", "#00FF00");
-    }
-    else{
-        $(".svg-logo .cls-1").css("fill", "white");
-        $(".svg-logo .cls-2").css("fill", "white");
+        opacity = 0.7;
+        fillLogoOnscroll(pixelsScrolled,30);
     }
 });
+
+
+function setOpacity(pixelsScrolled){
+    "use strict";
+    if(pixelsScrolled/1000 <= maxOpacity){
+        opacity = pixelsScrolled/1000;
+    }
+    else{
+        opacity = maxOpacity;
+    } 
+}
+
+function fillLogoOnscroll(pixelsScrolled, pixelsScrolledToFill){
+    "use strict";
+    var fillColor = "white";
+    if(pixelsScrolled > pixelsScrolledToFill){
+        fillColor = "#00FF00";
+    }
+    $(".svg-logo .cls-1").css("fill", fillColor);
+    $(".svg-logo .cls-2").css("fill", fillColor);
+}
+
+function setHeaderBackgroundColor(color){
+    "use strict";
+    $("#nav-menu").css("background-color", color);
+}
+
+function isAtHomePage(){
+    "use strict";
+    var isAtHomePage = false;
+    /*its possible to use window.location.href.indexOf("index.php") > -1*/
+    if(window.location.pathname === targetPath_a || window.location.pathname === targetPath_b){
+        isAtHomePage = true;
+    }
+    return isAtHomePage;
+}
