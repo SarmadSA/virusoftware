@@ -14,10 +14,10 @@
 </head>
 
 <body>
+    <?php include'include/navigationMenu.php';?>
+    <script src="script/header.js"></script>
     <main>
         <section id="home-section">
-            <?php include'include/navigationMenu.php'; ?>
-            <script src="script/header.js"></script>
             <div id="announcement-container">
                 <h1>Offering quality software solutions</h1>
                 <p id="info-text">Virusoftware is currently in pre alpha.<p>
@@ -39,8 +39,8 @@
                 <h2 class="service-heading">Software development</h2>
             </section>
         </section>
-        <?php include'include/footer.php';?>
         <script src="script/smoothScroll.js"></script>
     </main>
+    <?php include'include/footer.php';?>
 </body>
 </html>

@@ -2,13 +2,13 @@
 
 .page-tittle {
     color: white;
-    padding: 130px 100px 0 100px;
+    font-size: 110%;
 }
 
 .contact-form{
 	width: 80%;
 	box-sizing: border-box;
-	padding: 60px 100px;
+	padding-top: 60px;
 	background-color: transparent;
 }
 
@@ -32,7 +32,7 @@ label {
 }
 
 .contact-message {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Abel', sans-serif;
 	box-sizing: border-box;
 	font-size: 130%;
 	padding: 20px 15px;
