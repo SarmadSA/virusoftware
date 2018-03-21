@@ -17,7 +17,7 @@
     <main>
         <section id="home-section">
             <?php include'include/navigationMenu.php'; ?>
-            <script src="script/header.js" type="text/javascript"></script>
+            <script src="script/header.js"></script>
             <div id="announcement-container">
                 <h1>Offering quality software solutions</h1>
                 <p id="info-text">Virusoftware is currently in pre alpha.<p>
@@ -30,13 +30,13 @@
         <section id="service-section">
             <h1>Services offered by Virusoftware</h1>
             <section class="service-section service-left">
-            
+                <h2 class="service-heading">Web development</h2>
             </section>
             <section class="service-section service-center">
-            
+                <h2 class="service-heading">Web applications</h2>
             </section>
             <section class="service-section service-right">
-            
+                <h2 class="service-heading">Software development</h2>
             </section>
         </section>
         <?php include'include/footer.php';?>
