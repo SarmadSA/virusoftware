@@ -12,6 +12,6 @@
 		<li class="list-element services"><a href="index.php#service-section">Services</a></li>
 		<li class="list-element"><a href="#">Software</a></li>
 		<li class="list-element"><a href="#">About</a></li> 
-		<li class="list-element"><a href="#">Contact</a></li> 
+		<li class="list-element"><a href="contact.php">Contact</a></li> 
 	</ul>
 </nav>
