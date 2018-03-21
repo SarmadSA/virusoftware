@@ -48,8 +48,8 @@ function fillLogoOnscroll(pixelsScrolled, pixelsScrolledToFill){
     if(pixelsScrolled > pixelsScrolledToFill){
         fillColor = "#00FF00";
     }
-    $(".svg-logo .cls-1").css("fill", fillColor);
-    $(".svg-logo .cls-2").css("fill", fillColor);
+    $(".cls-1").css("fill", fillColor);
+    $(".cls-2").css("fill", fillColor);
 }
 
 function setHeaderBackgroundColor(color){
