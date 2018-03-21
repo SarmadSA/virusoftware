@@ -8,7 +8,7 @@ var targetPath_b = "/virusoftware/";
 
 $(document).ready(function() {
     "use strict";
-    var backgroundColor = "rgba(0,0,0," + 1 + ")";
+    var backgroundColor = "rgba(0,0,0," + 0.7 + ")";
     if(isAtHomePage()){
         backgroundColor = "rgba(0,0,0," + 0 + ")"; 
     }
@@ -26,7 +26,6 @@ $(window).scroll(function() {
         setHeaderBackgroundColor(backgroundColor);
     }
     else{
-        opacity = 0.7;
         fillLogoOnscroll(pixelsScrolled,30);
     }
 });
