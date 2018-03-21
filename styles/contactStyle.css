@@ -13,6 +13,7 @@
 }
 
 .form-input {
+    font-family: 'Abel', sans-serif;
 	box-sizing: border-box;
 	width: 500px;
 	height: 50px;
@@ -23,7 +24,7 @@
 	background-color: rgba(255,255,255,0.8);
 	border: none;
 	border-radius: 5px;
-	font-size: 110%;
+	font-size: 120%;
 }
 
 label {
