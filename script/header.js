@@ -1,10 +1,9 @@
 var opacity = 0;
 var maxOpacity = 0.5;
  
-//When uploading to server make sure that this code works
+//When uploading to server make sure that these paths work
 //I don't think www.virusoftware has a path name /virusoftware/ or /virusoftware/index.php
-var targetPath_a = "/virusoftware/index.php";
-var targetPath_b = "/virusoftware/";
+var homePaths = ["", "/", "/index.php", "/virusoftware/", "/virusoftware/index.php"];
 
 $(document).ready(function() {
     "use strict";
@@ -59,9 +58,10 @@ function setHeaderBackgroundColor(color){
 function isAtHomePage(){
     "use strict";
     var isAtHomePage = false;
-    /*its possible to use window.location.href.indexOf("index.php") > -1*/
-    if(window.location.pathname === targetPath_a || window.location.pathname === targetPath_b){
-        isAtHomePage = true;
-    }
+    homePaths.forEach(function(element){
+        if(window.location.pathname === element){
+            isAtHomePage = true;
+        }
+    });
     return isAtHomePage;
 }
