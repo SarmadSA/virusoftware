@@ -1,0 +1,7 @@
+Now using cookies to register user click on service. If user click service while on other page than home page, a cookie will be created and the user will
+be directed to the homepage then scroll to the services section. Without the cookie it will not scroll, it will only go to homepage then jump to services-section
+which does not look smooth (if you revert to commit e7313d2 where the link in the nav menu is different).
+
+User can block cookies, that will make the service link not work.
+
+To go back to a functional services with no cookies no animation and no glitches, revert to commit: e7313d2. fix service-secton.
