@@ -1,8 +1,5 @@
 var opacity = 0;
 var maxOpacity = 0.5;
- 
-//When uploading to server make sure that these paths work
-//I don't think www.virusoftware has a path name /virusoftware/ or /virusoftware/index.php
 var homePaths = ["", "/", "/index.php", "/virusoftware/", "/virusoftware/index.php"];
 
 $(document).ready(function() {
