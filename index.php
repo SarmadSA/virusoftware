@@ -18,10 +18,6 @@
     <script src="script/header.js"></script>
     <main>
         <section id="home-section">
-    <main>
-        <section id="home-section">
-            <?php include'include/navigationMenu.php'; ?>
-            <script src="script/header.js" type="text/javascript"></script>
             <div id="announcement-container">
                 <h1>Offering quality software solutions</h1>
                 <p id="info-text">Virusoftware is currently in pre alpha.<p>
@@ -46,17 +42,5 @@
     </main>
     <?php include'include/footer.php';?>
     <script src="script/smoothScroll.js"></script>
-            
-            </section>
-            <section class="service-section service-center">
-            
-            </section>
-            <section class="service-section service-right">
-            
-            </section>
-        </section>
-        <?php include'include/footer.php';?>
-        <script src="script/smoothScroll.js"></script>
-    </main>
 </body>
 </html>
