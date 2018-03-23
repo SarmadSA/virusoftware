@@ -46,6 +46,7 @@
 	box-shadow: none;
 	font-size: 90%;
     cursor: pointer;
+	cursor: pointer;
 }
 
 .submit-btn:hover{
@@ -54,6 +55,8 @@
 
 .submit-btn:focus{
 	outline: none;
+	box-shadow: 0 0 0pt 0.0pt #004894;
+
 }
 
 .email-input {

@@ -1,6 +1,7 @@
 <nav id="nav-menu" class="nav-menu">
     <!--Logo container-->
     <a id="logo-anchor" href="index.php#home-section">
+    <a href="index.php#home-section">
         <div class="logo-container">
             <!--SVG logo-->
             <?php include'virusoftware-logo.svg'; ?>
@@ -13,5 +14,9 @@
 		<li class="list-element"><a href="#">Software</a></li>
 		<li class="list-element"><a href="#">About</a></li> 
 		<li class="list-element contact"><a href="contact.php#main">Contact</a></li> 
+		<li class="list-element services"><a href="index.php#service-section">Services</a></li>
+		<li class="list-element"><a href="#">Software</a></li>
+		<li class="list-element"><a href="#">About</a></li> 
+		<li class="list-element"><a href="#">Contact</a></li> 
 	</ul>
 </nav>
