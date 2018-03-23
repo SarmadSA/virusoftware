@@ -6,10 +6,10 @@
 }
 
 #service-section {
-    height: 900px;
+    height: 1000px;
     width: 100%;
     background: rgba(25,25,25,1.00);
-    padding: 40px 100px;
+    padding: 100px 100px 40px 100px;
     color: white;
     text-align: center;
 }

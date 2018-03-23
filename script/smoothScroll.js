@@ -2,24 +2,13 @@ var homePaths = ["", "/", "/index.php", "/virusoftware/", "/virusoftware/index.p
 
 $('#services').click(function(){
     "use strict";
+     $("#services").attr("href", "index.php#service-section");
     if(isAtHomePage()){
-        console.log("at home page");
-        //add #service-section to herf
-        $("#services").attr("href", "index.php#service-section");
-        var positionToScroll = $('#service-section').offset().top - $('#nav-menu').height() - 30;
-        $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
-        //remove #service-section from herf
+        $("#services").attr("href", "#service-section");
     }
-    else{
-        console.log("cookie created");
-        localStorage.setItem("servicesClicked", "true");    
-    }
-});
-
-$('.logo-container').click(function(){
-    "use strict";
-    var positionToScroll = $('#home-section').offset().top;
+    var positionToScroll = $('#service-section').offset().top;
     $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
+
 });
 
 $('.contact').click(function(){
@@ -28,14 +17,14 @@ $('.contact').click(function(){
     $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
 });
 
-
-$(document).ready(function() {
+$('.logo-container').click(function(){
     "use strict";
-    if(localStorage.getItem("servicesClicked")){
-        var positionToScroll = $('#service-section').offset().top - $('#nav-menu').height() - 30;
-        $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
-        localStorage.removeItem("servicesClicked");
+    $("#logo-anchor").attr("href", "index.php#home-section");
+    if(isAtHomePage()){
+        $("#logo-anchor").attr("href", "#home-section");
     }
+    var positionToScroll = $('#home-section').offset().top;
+    $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
 });
 
 function isAtHomePage(){
