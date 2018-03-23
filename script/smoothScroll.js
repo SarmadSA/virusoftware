@@ -2,11 +2,14 @@ var homePaths = ["", "/", "/index.php", "/virusoftware/", "/virusoftware/index.p
 
 $('#services').click(function(){
     "use strict";
-     $("#services").attr("href", "index.php#service-section");
+     $("#services").attr("href", "index.php");
     if(isAtHomePage()){
         $("#services").attr("href", "#service-section");
     }
-    var positionToScroll = $('#service-section').offset().top;
+    else{
+        localStorage.setItem("servicesClicked", "true");    
+    }
+    var positionToScroll = $('#service-section').offset().top - $('#nav-menu').height() - 30;
     $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
 
 });
@@ -25,6 +28,15 @@ $('.logo-container').click(function(){
     }
     var positionToScroll = $('#home-section').offset().top;
     $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
+});
+
+$(document).ready(function() {
+    "use strict";
+    if(localStorage.getItem("servicesClicked")){
+        var positionToScroll = $('#service-section').offset().top - $('#nav-menu').height() - 30;
+        $("html, body").animate({scrollTop: positionToScroll}, '500', 'swing');
+        localStorage.removeItem("servicesClicked");
+    }
 });
 
 function isAtHomePage(){
