@@ -23,6 +23,7 @@
             <li><a href="#">Other websites</a></li>
         </ul>
     </nav>
+    <p id="development-info"> By using this site, you agree to have read and accepted the <a href="#">terms of use</a>, <a href="#">cookie</a> and <a href="#">privacy policy. </a></p>
     <p id="development-info"> Developed by virusoftware | <a href="http://www.virusoftware.com">www.virusoftware.com</a></p>
     <small id="copyright-text">&copy; 2016 - <?php echo date('Y'); ?> virusoftware</small>
 </footer>
