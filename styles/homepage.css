@@ -45,6 +45,7 @@
 	text-shadow:none; 
 	box-shadow: none;
 	font-size: 90%;
+    cursor: pointer;
 	cursor: pointer;
 }
 
@@ -55,6 +56,7 @@
 .submit-btn:focus{
 	outline: none;
 	box-shadow: 0 0 0pt 0.0pt #004894;
+
 }
 
 .email-input {
@@ -80,6 +82,7 @@
     width: 32%;
     background-color: rgba(32,32,32,1.00);
     margin: 40px 0;
+    padding: 20px;
     border-radius: 15px;
 }
 

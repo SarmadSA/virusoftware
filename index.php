@@ -14,6 +14,10 @@
 </head>
 
 <body>
+    <?php include'include/navigationMenu.php';?>
+    <script src="script/header.js"></script>
+    <main>
+        <section id="home-section">
     <main>
         <section id="home-section">
             <?php include'include/navigationMenu.php'; ?>
@@ -30,6 +34,18 @@
         <section id="service-section">
             <h1>Services offered by Virusoftware</h1>
             <section class="service-section service-left">
+                <h2 class="service-heading">Web development</h2>
+            </section>
+            <section class="service-section service-center">
+                <h2 class="service-heading">Web applications</h2>
+            </section>
+            <section class="service-section service-right">
+                <h2 class="service-heading">Software development</h2>
+            </section>
+        </section>
+    </main>
+    <?php include'include/footer.php';?>
+    <script src="script/smoothScroll.js"></script>
             
             </section>
             <section class="service-section service-center">

@@ -19,6 +19,11 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Software</a></li>
             <li><a href="#">About</a></li>
+            <li class="contact"><a href="contact.php#main">Contact</a></li>
+            <li><a href="#">Other websites</a></li>
+        </ul>
+    </nav>
+    <p id="development-info"> By using this site, you agree to have read and accepted the <a href="#">terms of use</a>, <a href="#">cookie</a> and <a href="#">privacy policy. </a></p>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Other websites</a></li>
         </ul>

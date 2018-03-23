@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.page-tittle {
+    color: white;
+    font-size: 110%;
+}
+
+.contact-form{
+	width: 80%;
+	box-sizing: border-box;
+	padding-top: 60px;
+	background-color: transparent;
+}
+
+.form-input {
+    font-family: 'Abel', sans-serif;
+	box-sizing: border-box;
+	width: 500px;
+	height: 50px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 0 15px;
+	background-color: rgba(255,255,255,0.8);
+	border: none;
+	border-radius: 5px;
+	font-size: 120%;
+}
+
+label {
+	font-size: 130%;
+    color: white;
+}
+
+.contact-message {
+    font-family: 'Abel', sans-serif;
+	box-sizing: border-box;
+	font-size: 130%;
+	padding: 20px 15px;
+	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: 250px;
+	min-height: 250px;
+	max-height: inherit;
+	margin: 10px auto 30px auto;
+	border: 0px;
+	border-radius:5px;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.submit-button {
+	transition: 0.4s ease;
+	box-sizing: border-box;
+	height: 50px;
+	width: 100px;
+	border-style: none;
+	border-radius: 5px;
+    background-color: #0AA320;
+	color: white;
+	text-shadow:none; 
+	box-shadow: none;
+	font-size: 100%;
+	cursor: pointer;
+}
+
+.submit-button:hover{
+	background-color: #00D700;
+}
+
+.submit-button:focus{
+	outline: none;
+}
+
+.focus-style:focus {
+	outline: none !important;
+	box-shadow: 0 0 2pt 0.3pt rgba(0,149,46,1.00);
+}
+
+.successfull-submit{
+	color: #1CD91C;
+	font-size: 110%;
+}
+
+.error-message {
+	color: red;
+	font-size: 110%;
+}
